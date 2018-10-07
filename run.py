@@ -88,7 +88,7 @@ print (pd.read_sql_query("select * from my_graph", connection))
 Q8 = """drop table if exists my_graph;"""
 crsr.execute(Q8)
 
-# To save the changes in the files. Never skip this.  
+# To save the changes in the files. 
 # If we skip this, nothing will be saved in the database. 
 connection.commit() 
   
